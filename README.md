@@ -27,8 +27,8 @@ Tennis Ops is an end-to-end automated trading system for in-play professional te
 
 ## 🛠 Toolbox
 
-**Languages:** Python · Java · C · C# · SQL
+**Languages:** Java · Python · C · C# · SQL · YAML · Bash/PowerShell
 
-**DevOps & Cloud:** Docker · GitHub Actions · AWS (CloudFormation, ECR, ECS, EC2) · Git
+**DevOps & Cloud:** Git/GitHub · GitHub Actions (CI/CD) · Docker & Dockerfiles · AWS (CloudFormation, ECR, ECS, EC2) · Trivy container scanning · private container registries · GitHub Copilot
 
-**Data & ML:** pandas · NumPy · scikit-learn · XGBoost · Optuna · PyArrow/Parquet
+**Data & ML:** pandas · NumPy · scikit-learn · XGBoost · Optuna · PyArrow/Parquet · REST APIs · Claude Code
