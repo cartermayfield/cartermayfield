@@ -31,4 +31,4 @@ Tennis Ops is an end-to-end automated trading system for in-play professional te
 
 **Familiar:** AWS (CloudFormation, ECR, ECS, EC2) · XGBoost · Trivy container scanning
 
-**Working Knowledge:** XGBoost · PyArrow/Parquet · pandas · NumPy · scikit-learn · Optuna · C#
+**Working Knowledge:** PyArrow/Parquet · pandas · NumPy · scikit-learn · Optuna · C#
