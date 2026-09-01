@@ -10,7 +10,7 @@ CS at **The University of Texas at Austin** ('29). I build production systems th
 
 Tennis Ops is an end-to-end automated trading system for in-play professional tennis on two regulated exchanges (**Kalshi** and **Polymarket US**). The repo is private because it runs live capital and a proprietary strategy, but I'm happy to walk through any part of it in depth.
 
-- **Six trading bots** (~94,000 lines of Python) autonomously placing, repricing, and canceling orders — **$5,000+ realized profit across 2,000+ trades** in the first 1.5 months live
+- **Six trading bots** (~94,000 lines of Python) autonomously placing, repricing, and canceling orders — **$6,800+ realized profit (+112.3% NAV return) across 2,400+ trades** in the first 1.5 months live
 - **Modeling** — a nested Markov-chain win-probability model (Barnett–Clarke) with Bayesian serve-strength priors, plus XGBoost trade selectors retrained weekly by an automated crawl-and-refit pipeline tuned with Optuna
 - **Data platform** — 10+ collector daemons running 24/7 (live scores from two independent feeds, order-book depth, trade tape, settlements) writing Parquet datasets, hardened with fail-closed guards and staleness tripwires
 - **Research discipline** — 150+ research cycles under preregistration: out-of-sample time splits, match-clustered standard errors, Benjamini–Hochberg corrections, fee-aware executable-fill backtests. **70+ candidate strategies falsified** before one was deployed
