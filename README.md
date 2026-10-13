@@ -2,7 +2,7 @@
 
 CS at **The University of Texas at Austin** ('29). I build production systems that trade real money on live sports markets.
 
-📫 [carter.mayfield.jr@gmail.com](mailto:carter.mayfield.jr@gmail.com) · [LinkedIn](https://www.linkedin.com/in/carter-mayfield-jr-9b7652272)
+📫 [carter.mayfield.jr@gmail.com](mailto:carter.mayfield.jr@gmail.com) · [LinkedIn](https://www.linkedin.com/in/carter-mayfield-jr)
 
 ---
 
@@ -10,7 +10,7 @@ CS at **The University of Texas at Austin** ('29). I build production systems th
 
 Tennis Ops is an end-to-end automated trading system for in-play professional tennis on two regulated exchanges (**Kalshi** and **Polymarket US**). The repo is private because it runs live capital and a proprietary strategy, but I'm happy to walk through any part of it in depth.
 
-- **Six trading bots** (~94,000 lines of Python) autonomously placing, repricing, and canceling orders — **$6,800+ realized profit (+112.3% NAV return) across 2,400+ trades** in the first 1.5 months live
+- **Six trading bots** (~94,000 lines of Python) autonomously placing, repricing, and canceling orders — **$5,000+ realized profit (+112.3% NAV return) across 2,200+ trades** in under 2 months
 - **Modeling** — a nested Markov-chain win-probability model (Barnett–Clarke) with Bayesian serve-strength priors, plus XGBoost trade selectors retrained weekly by an automated crawl-and-refit pipeline tuned with Optuna
 - **Data platform** — 10+ collector daemons running 24/7 (live scores from two independent feeds, order-book depth, trade tape, settlements) writing Parquet datasets, hardened with fail-closed guards and staleness tripwires
 - **Research discipline** — 150+ research cycles under preregistration: out-of-sample time splits, match-clustered standard errors, Benjamini–Hochberg corrections, fee-aware executable-fill backtests. **70+ candidate strategies falsified** before one was deployed
@@ -27,7 +27,7 @@ Tennis Ops is an end-to-end automated trading system for in-play professional te
 
 ## 🛠 Toolbox
 
-**Proficient:** Java · Python · C · Git/GitHub · GitHub Actions (CI/CD) · Docker & Dockerfiles · private container registries · Claude Code · GitHub Copilot
+**Proficient:** Java · Python · C · Bash · Git/GitHub · GitHub Actions (CI/CD) · Docker & Dockerfiles · private container registries · Claude Code · GitHub Copilot
 
 **Familiar:** AWS (CloudFormation, ECR, ECS, EC2) · XGBoost · Trivy container scanning
 
